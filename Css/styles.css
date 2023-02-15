@@ -532,9 +532,7 @@ body{
 .third__one
 {
     margin: 35px 0;
-
 }
-
 
 
 .for--section
@@ -550,19 +548,18 @@ body{
     display: flex;
     flex-direction: column-reverse;
     text-align: center;
-    top: 110px;
+    top: 130px;
+    margin: auto;
 }
 
 .container--one
 {
-    width: 70%;
+    width: 80%;
 }
 
 .container--two
 {  
-    width: 50%;
-    margin-bottom: 20px;
-
+    width: 60%;
 }
 
 .title
@@ -589,26 +586,22 @@ body{
 
 .five--section
 {
-    height: 350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     align-items: center;
-    margin: 20px;
+    margin: 20px auto;
 }
 
 .five__container--one
 {
-    width: 50%;
-    margin: auto;
-    text-align: center;
+    width: 70%;
 }
 
 .five__container--two
 {
     width: 80%;
-    margin-top: 40px;
 }
 
 
@@ -621,22 +614,19 @@ body{
 {
     display: flex;
     flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
 
 }
 
 .six__container--one
 {
-    width: 70%;
-    margin-top:30px;
-    padding: 0 10px;
-    text-align: center;
+    width: 80%;
 }
 
 .six__container--two
 {
     width: 60%;
-    padding: 0 10px;
-    text-align: center;
 }
 
 
@@ -669,14 +659,14 @@ body{
 
 .seven__button
 {
-    width: 60%;
+    width: 80%;
     height: 100px;
     margin-top: 30px;
 }
 
 .seven__btn
 {
-    width: 90%;
+    width: 70%;
     height: 40px;
     font-size: 14px;
 }
@@ -696,6 +686,7 @@ body{
     top: 300px;
     display: flex;
     flex-direction: column-reverse;
+    align-items: center;
 }
 
 .footer__container--one
@@ -766,32 +757,33 @@ body{
 
 .footer__two__button
 {
-    margin: 10px 0;
+    margin: 10px auto;
     display: flex;
+    flex-direction: column;
 }
 
 .footer__form input
 {
-    width: 80%;
+    width: 90%;
     height: 35px;
     font-size: 20px;
     border-radius: 10px;
+    margin: 10px 0;
 }
 
 .footer__btn
 {
-    width: 80%;
+    width: 100%;
     height: 150px;
+   
 }
 
 .footer__btn a
 {
     text-decoration: none;
-    display: flex;
     background-color: #0540F7;
-    width: 100%;
+    width: 150px;
     height: 35px;
-    margin: auto;
     border-radius: 10px;
     color: #fff;
 }
