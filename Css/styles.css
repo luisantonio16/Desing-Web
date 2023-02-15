@@ -444,8 +444,12 @@ body{
 
 
 
-@media screen and (max-width:500px) 
+@media screen and (max-width:550px) 
 {
+.header img{
+    width: 150px;
+
+}
 .second__title h2
 {
     font-weight: 700;
@@ -579,7 +583,8 @@ body{
 }
 .image
 {
-    width: 200px;
+    width: 250px;
+    margin: 20px auto;
 }
 
 .five--section
@@ -595,14 +600,15 @@ body{
 
 .five__container--one
 {
-    width: 60%;
+    width: 50%;
+    margin: auto;
     text-align: center;
 }
 
 .five__container--two
 {
     width: 80%;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 
@@ -672,6 +678,7 @@ body{
 {
     width: 90%;
     height: 40px;
+    font-size: 14px;
 }
 
 
